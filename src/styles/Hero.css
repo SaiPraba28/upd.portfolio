@@ -1,0 +1,108 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px;
+  background:  #0d0d0d;
+}
+
+.hero-text {
+  max-width: 600px;
+}
+
+.hero-text h4 {
+  color: #2563eb;
+  font-weight: 600;
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+  margin: 15px 0;
+}
+
+.highlight {
+  color: #dc2626;
+}
+
+.hero-text p {
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.hero-buttons {
+  display: flex;          /* puts items in a row */
+  gap: 10px;              /* space between buttons */
+  flex-wrap: nowrap;      /* prevents wrapping to next line */
+  justify-content: flex-start; /* aligns them to the left (or use center/right) */
+}
+
+
+
+.btn {
+  padding: 6px 12px;
+  font-size: 0.9rem;
+  border: none;
+  background: #2563eb;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;   /* removes underline */
+  display: inline-block;   /* makes <a> behave like a button */
+}
+
+
+
+.btn-outline {
+  padding: 6px 12px;
+  font-size: 0.9rem;
+  background: transparent;
+  border: 2px solid #2563eb;
+  color: #2563eb;
+  border-radius: 4px;
+  text-decoration: none;   /* removes underline */
+  display: inline-block;
+}
+
+
+.hero-image img {
+  width: 300px;
+  border-radius: 50%;
+  border: 5px solid #2563eb;
+}
+
+.profile-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: visible;   /* ensures outer circle/glow is visible */
+}
+
+.profile-image {
+  width: 250px;              /* adjust size */
+  height: 250px;
+  border-radius: 50%;        /* perfect circle */
+  border: 8px solid #2563eb; /* outer circle border */
+  object-fit: cover;         /* keeps image proportions */
+  margin: 0 auto;            /* center horizontally */
+}
+
+.contact-links {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.contact-links a {
+  color: #00f0ff; /* neon blue */
+  font-size: 2rem;
+  margin: 0 15px;
+  transition: 0.3s;
+}
+
+.contact-links a:hover {
+  color: #ff0055; /* neon pink hover */
+  text-shadow: 0 0 10px #00f0ff;
+}
+
+
