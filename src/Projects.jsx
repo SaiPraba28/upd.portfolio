@@ -14,6 +14,12 @@ const projects = [
       "Conducted user research and problem analysis.Designed user flows, wireframes, and high-fidelity prototype.Focused on improving trust through instant refund tracking and transparent payment flow.",
     tags: ["FIGMA"],
   },
+  {
+    title: "Portfolio Website ",
+    description:
+      "Designed and developed a responsive personal portfolio using React components and modern UI/UX principles.",
+    tags: ["React", "HTML", "CSS", "JavaScript"],
+  },
 ];
 
 const Projects = () => {
