@@ -27,7 +27,7 @@ const About = () => {
         {/* Stats */}
         <div className="about-stats">
           <div className="stat-box">
-            <h3>4+</h3>
+            <h3>3+</h3>
             <p>Projects Built</p>
           </div>
           <div className="stat-box">
