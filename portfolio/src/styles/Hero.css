@@ -87,3 +87,22 @@
   object-fit: cover;         /* keeps image proportions */
   margin: 0 auto;            /* center horizontally */
 }
+
+.contact-links {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.contact-links a {
+  color: #00f0ff; /* neon blue */
+  font-size: 2rem;
+  margin: 0 15px;
+  transition: 0.3s;
+}
+
+.contact-links a:hover {
+  color: #ff0055; /* neon pink hover */
+  text-shadow: 0 0 10px #00f0ff;
+}
+
+
