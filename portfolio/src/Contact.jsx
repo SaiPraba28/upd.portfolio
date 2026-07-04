@@ -1,7 +1,8 @@
 import React, { useRef} from "react";
 import "./styles/Contact.css";
 import emailjs from "emailjs-com";
-import resumeFile from "./assets/resume.pdf"; // import your resume
+
+const resumeFile = new URL("./assets/resume.pdf", import.meta.url).href;
      
 
 const Contact = () => {
